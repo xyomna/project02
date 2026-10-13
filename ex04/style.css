@@ -1,0 +1,21 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.con {
+    box-sizing: content-box;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.bor {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
